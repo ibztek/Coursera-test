@@ -1,9 +1,15 @@
 
+
+* {
+	box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   color: #fff;
   background-color: #F4F6F6;
   font-family: 'Oxygen', sans-serif;
+
 }
 
 /** HEADER **/
@@ -15,43 +21,48 @@ body {
   padding-top: 25px; 
 }
 
-div a {
+li a {
 
-	background-color: #96C0CE;
+	background-color: #FCF4D9;
+	text-align: center;
+
 	
 }
 
-#content-text {
+div .jumbotron {
 
-	background-color: #8ED2C9;
+	padding: 5px;
+	margin: auto;
+	
+}
+
+div .container-fluid {
+
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+div p {
+
+	color: #FF7A5A;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+    height: auto;
+    font-family: Helvetica;
+    position: relative;
+    overflow: auto;
+
 }
 
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
 
-	 {
-
-		box-sizing: 90%;
-	}
-
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-  }
-  /* End Header */
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  
-  }
 
 
